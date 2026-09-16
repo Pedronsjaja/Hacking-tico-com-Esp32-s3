@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="680" viewBox="0 0 1100 680">
+  <rect width="1100" height="680" fill="#f5f7fa"/>
+  <text x="550" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#17202a">ESP Tool - wiring diagram</text>
+  <text x="550" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#52616b">Logical wiring - verify the labels on your board before powering it</text>
+
+  <rect x="55" y="125" width="260" height="405" rx="12" fill="#202a35" stroke="#111820" stroke-width="3"/>
+  <rect x="90" y="158" width="190" height="65" rx="5" fill="#303d4a"/>
+  <text x="185" y="188" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">ESP32-S3</text>
+  <text x="185" y="211" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#b9c6d0">USB-UART / COM</text>
+  <text x="80" y="275" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">3V3</text>
+  <text x="80" y="315" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">GND</text>
+  <text x="80" y="355" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">GPIO 1</text>
+  <text x="80" y="395" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">GPIO 2</text>
+  <text x="80" y="435" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">GPIO 15</text>
+  <text x="80" y="485" font-family="Arial, sans-serif" font-size="13" fill="#b9c6d0">SDA/SCL:</text>
+  <text x="160" y="485" font-family="Arial, sans-serif" font-size="13" fill="#b9c6d0">8 / 9</text>
+
+  <rect x="425" y="150" width="290" height="170" rx="10" fill="#e8edf2" stroke="#bdc7d0" stroke-width="3"/>
+  <text x="570" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#17202a">OLED SSD1306</text>
+  <text x="465" y="225" font-family="Arial, sans-serif" font-size="16" fill="#17202a">VCC</text>
+  <text x="465" y="250" font-family="Arial, sans-serif" font-size="16" fill="#17202a">GND</text>
+  <text x="465" y="275" font-family="Arial, sans-serif" font-size="16" fill="#17202a">SDA</text>
+  <text x="465" y="300" font-family="Arial, sans-serif" font-size="16" fill="#17202a">SCL</text>
+  <text x="635" y="225" font-family="Arial, sans-serif" font-size="15" fill="#52616b">3V3</text>
+  <text x="635" y="250" font-family="Arial, sans-serif" font-size="15" fill="#52616b">GND</text>
+  <text x="635" y="275" font-family="Arial, sans-serif" font-size="15" fill="#52616b">GPIO 8</text>
+  <text x="635" y="300" font-family="Arial, sans-serif" font-size="15" fill="#52616b">GPIO 9</text>
+
+  <rect x="425" y="395" width="290" height="190" rx="10" fill="#d7edf9" stroke="#77aeca" stroke-width="3"/>
+  <text x="570" y="432" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#17202a">Joystick analogico</text>
+  <text x="465" y="472" font-family="Arial, sans-serif" font-size="16" fill="#17202a">VCC</text>
+  <text x="465" y="497" font-family="Arial, sans-serif" font-size="16" fill="#17202a">GND</text>
+  <text x="465" y="522" font-family="Arial, sans-serif" font-size="16" fill="#17202a">VRX</text>
+  <text x="465" y="547" font-family="Arial, sans-serif" font-size="16" fill="#17202a">VRY</text>
+  <text x="465" y="572" font-family="Arial, sans-serif" font-size="16" fill="#17202a">SW</text>
+  <text x="635" y="472" font-family="Arial, sans-serif" font-size="15" fill="#52616b">3V3</text>
+  <text x="635" y="497" font-family="Arial, sans-serif" font-size="15" fill="#52616b">GND</text>
+  <text x="635" y="522" font-family="Arial, sans-serif" font-size="15" fill="#52616b">GPIO 1</text>
+  <text x="635" y="547" font-family="Arial, sans-serif" font-size="15" fill="#52616b">GPIO 2</text>
+  <text x="635" y="572" font-family="Arial, sans-serif" font-size="15" fill="#52616b">GPIO 15</text>
+
+  <g fill="none" stroke-width="4">
+    <path d="M315 275 H365 V225 H425" stroke="#e74c3c"/>
+    <path d="M315 315 H385 V250 H425" stroke="#34495e"/>
+    <path d="M315 485 H350 V275 H425" stroke="#f39c12"/>
+    <path d="M315 485 H340 V300 H425" stroke="#9b59b6"/>
+    <path d="M315 275 H375 V472 H425" stroke="#e74c3c" opacity="0.8"/>
+    <path d="M315 315 H395 V497 H425" stroke="#34495e" opacity="0.8"/>
+    <path d="M315 355 H405 V522 H425" stroke="#2ecc71"/>
+    <path d="M315 395 H415 V547 H425" stroke="#3498db"/>
+    <path d="M315 435 H425 V572" stroke="#f1c40f"/>
+  </g>
+
+  <rect x="790" y="160" width="260" height="270" rx="10" fill="#fff8df" stroke="#e0c45c" stroke-width="2"/>
+  <text x="920" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#5d4b00">Antes de ligar</text>
+  <text x="815" y="240" font-family="Arial, sans-serif" font-size="15" fill="#302b16">1. Use somente 3V3.</text>
+  <text x="815" y="275" font-family="Arial, sans-serif" font-size="15" fill="#302b16">2. GND comum.</text>
+  <text x="815" y="310" font-family="Arial, sans-serif" font-size="15" fill="#302b16">3. OLED: endereco 0x3C.</text>
+  <text x="815" y="345" font-family="Arial, sans-serif" font-size="15" fill="#302b16">4. VRX/VRY sao analogicos.</text>
+  <text x="815" y="380" font-family="Arial, sans-serif" font-size="15" fill="#302b16">5. SW e botao para GND.</text>
+  <text x="815" y="415" font-family="Arial, sans-serif" font-size="15" fill="#302b16">6. Desligue antes de alterar.</text>
+
+  <text x="550" y="635" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#52616b">A protoboard apenas distribui 3V3 e GND; nao conecte 5V aos GPIOs.</text>
+</svg>
