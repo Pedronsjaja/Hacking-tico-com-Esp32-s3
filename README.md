@@ -1,4 +1,38 @@
-# ESP Tool
+<div align="center">
+
+<h1>🔬 ESP Tool</h1>
+<p><strong>Um laborat&#243;rio port&#225;til para estudar Wi-Fi, BLE, IoT e eletr&#244;nica.</strong></p>
+<p><kbd>ESP32-S3 &#183; PlatformIO &#183; OLED &#183; Joystick</kbd></p>
+
+<p><a href="https://github.com/Pedronsjaja/Hacking-tico-com-Esp32-s3/stargazers"><img alt="Estrelas no GitHub" src="https://img.shields.io/github/stars/Pedronsjaja/Hacking-tico-com-Esp32-s3?style=flat-square&amp;color=147d68"/></a> <a href="https://github.com/Pedronsjaja/Hacking-tico-com-Esp32-s3/commits/main"><img alt="Último commit" src="https://img.shields.io/github/last-commit/Pedronsjaja/Hacking-tico-com-Esp32-s3?style=flat-square&amp;color=235789"/></a></p>
+<p><a href="#inicio-rapido">Comece aqui</a> · <a href="#guia-do-projeto">Documentação</a> · <a href="https://github.com/Pedronsjaja/Hacking-tico-com-Esp32-s3/tree/main">Arquivos</a></p>
+
+</div>
+
+<a id="inicio-rapido"></a>
+## 🚀 Comece aqui
+
+**[Abrir o diagrama de ligação](wiring.svg)**
+
+| Interface | Diagnóstico | Desenvolvimento |
+| --- | --- | --- |
+| Menu no OLED com navegação por joystick. | Informações de sistema, Wi-Fi e descoberta BLE passiva. | Configuração, pinagem e instruções de compilação. |
+
+### Caminho do projeto
+
+```mermaid
+flowchart LR
+  N0["Conferir hardware"]
+  N1["Montar circuito"]
+  N0 --> N1
+  N2["Compilar firmware"]
+  N1 --> N2
+  N3["Explorar interface"]
+  N2 --> N3
+```
+
+<a id="guia-do-projeto"></a>
+## 📖 Documentação
 
 Firmware portátil de laboratório para ESP32-S3, voltado a estudo de Wi-Fi, BLE, IoT e eletrônica em dispositivos próprios e rede própria. Os scanners deste projeto são passivos: não há deauthentication, jamming, captura de credenciais, Evil Twin, quebra de senhas, bypass de autenticação, replay de rolling codes ou interferência de rádio.
 
@@ -111,3 +145,4 @@ Para adicionar um app, crie uma classe derivada de `App`, implemente os quatro m
 - Upload falha: mantenha BOOT pressionado durante a conexão USB se a placa exigir modo download.
 - Monitor sem saída: use a entrada física **COM**, não a entrada **USB**, e abra o monitor na porta retornada por `pio device list`. Feche outros monitores antes de abrir a porta.
 - BLE ou Wi-Fi indisponível: verifique as configurações salvas em Settings e reinicie.
+
