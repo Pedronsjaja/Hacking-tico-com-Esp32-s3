@@ -146,3 +146,7 @@ Para adicionar um app, crie uma classe derivada de `App`, implemente os quatro m
 - Monitor sem saída: use a entrada física **COM**, não a entrada **USB**, e abra o monitor na porta retornada por `pio device list`. Feche outros monitores antes de abrir a porta.
 - BLE ou Wi-Fi indisponível: verifique as configurações salvas em Settings e reinicie.
 
+
+## Engenharia e validacao
+
+[Estado tecnico, validacao e proximos passos](docs/engineering-status.md).
